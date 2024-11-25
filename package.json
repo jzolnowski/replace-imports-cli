@@ -1,0 +1,32 @@
+{
+  "name": "replace-imports-cli",
+  "version": "1.0.5",
+  "description": "A CLI tool to replace long relative import paths with tsconfig aliases in TypeScript projects.",
+  "main": "./src/index.js",
+  "bin": {
+    "replace-imports": "./bin/replace-imports.js"
+  },
+  "type": "module",
+  "scripts": {
+    "replace-imports": "node src/cli.js"
+  },
+  "dependencies": {
+    "inquirer": "^9.0.0",
+    "fs-extra": "^11.1.1"
+  },
+  "keywords": [
+    "typescript",
+    "aliases",
+    "import-replacer",
+    "cli",
+    "tsconfig",
+    "npm-package"
+  ],
+  "author": "Jaroslaw Zolnowski <jaroslaw.zolnowski@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jzolnowski/replace-imports-cli.git"
+  },
+  "license": "MIT"
+}
+

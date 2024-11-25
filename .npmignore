@@ -1,0 +1,53 @@
+# Exclude test files and test data
+tests/
+__tests__/
+*.spec.js
+*.test.js
+
+# Exclude source maps and build artifacts (if any)
+*.map
+dist/
+coverage/
+
+# Exclude local environment configuration
+.env
+.env.*
+
+# Exclude IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude local operating system files
+.DS_Store
+Thumbs.db
+
+# Exclude logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.log
+
+# Exclude git and version control files
+.git/
+.gitignore
+
+# Exclude unnecessary project files
+.editorconfig
+.eslintrc*
+.prettierrc*
+.prettierignore
+*.config.js
+*.config.cjs
+*.config.ts
+README.md~  # Exclude backup files
+LICENSE.md~  # Exclude backup files
+
+# Include only necessary files
+!bin/           # Include CLI executable
+!src/           # Include source files
+!README.md      # Include documentation
+!LICENSE        # Include license
+!package.json   # Include package metadata
